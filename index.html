@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Noelle Xie</title>
+    <meta name="description" content="Modelling portfolio gallery" />
+
+    <!-- Tailwind Play CDN for quick static usage -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Photoswipe CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/photoswipe@5/dist/photoswipe.css">
+    <style>
+      /* small helper to keep images neat */
+      .gallery-img { object-fit: cover; width: 100%; height: 100%; }
+    </style>
+  </head>
+  <body class="bg-zinc-950 text-zinc-100">
+    <header class="max-w-6xl mx-auto px-6 pt-6 pb-0">
+      <h1 class="text-3xl font-bold">Noelle Xie</h1>
+      <p class="text-sm text-zinc-400 mt-1">
+        <a href="#gallery" class="hover:text-white">Photos</a> | <a href="#about" class="hover:text-white">About</a> | <a href="https://www.instagram.com/xie_noelle/" class="hover:text-white">Contact</a>
+      </p>
+    </header>
+    <main class="max-w-6xl mx-auto p-6">
+      <section id="gallery">
+        <h2 class="text-2xl font-semibold mb-4">Gallery</h2>
+        <div id="gallery" class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4">
+          <!-- Each item uses a wrapper with a different aspect ratio for variety. -->
+          <a href="assets/crimson_twilight_1.jpg" data-pswp-width="3307" data-pswp-height="4961" class="block overflow-hidden rounded shadow bg-gray-200">
+            <div class="aspect-[3/5]">
+              <img class="gallery-img" src="assets/crimson_twilight_1.jpg">
+            </div>
+          </a>
+
+          <a href="assets/crimson_twilight_2.jpg" data-pswp-width="3307" data-pswp-height="4961" class="block overflow-hidden rounded shadow bg-gray-200">
+            <div class="aspect-[3/5]">
+              <img class="gallery-img" src="assets/crimson_twilight_2.jpg">
+            </div>
+          </a>
+
+          <a href="assets/crimson_twilight_3.jpg" data-pswp-width="3307" data-pswp-height="4961" class="block overflow-hidden rounded shadow bg-gray-200">
+            <div class="aspect-[3/5]">
+              <img class="gallery-img" src="assets/crimson_twilight_3.jpg">
+            </div>
+          </a>
+          
+          <a href="assets/crimson_twilight_5.jpg" data-pswp-width="3307" data-pswp-height="4961" class="block overflow-hidden rounded shadow bg-gray-200">
+            <div class="aspect-[3/5]">
+              <img class="gallery-img" src="assets/crimson_twilight_5.jpg">
+            </div>
+          </a>
+
+          <a href="assets/crimson_twilight_4.jpg" data-pswp-width="4961" data-pswp-height="3307" class="block overflow-hidden rounded shadow bg-gray-200 sm:col-span-2 md:col-span-2">
+            <div class="aspect-[16/9]">
+              <img class="gallery-img" src="assets/crimson_twilight_4.jpg">
+            </div>
+          </a>
+
+          <a href="assets/swag_bw_1.jpg" data-pswp-width="4961" data-pswp-height="3307" class="block overflow-hidden rounded shadow bg-gray-200 sm:col-span-2 md:col-span-2">
+            <div class="aspect-[16/9]">
+              <img class="gallery-img" src="assets/swag_bw_1.jpg">
+            </div>
+          </a>
+
+          <a href="assets/cute_1.jpg" data-pswp-width="3307" data-pswp-height="4961" class="block overflow-hidden rounded shadow bg-gray-200">
+            <div class="aspect-[3/5]">
+              <img class="gallery-img" src="assets/cute_1.jpg">
+            </div>
+          </a>
+
+          <a href="assets/sly_1.jpg" data-pswp-width="3307" data-pswp-height="4961" class="block overflow-hidden rounded shadow bg-gray-200">
+            <div class="aspect-[3/5]">
+              <img class="gallery-img" src="assets/sly_1.jpg">
+            </div>
+          </a>
+
+          <a href="assets/sexy_1.jpg" data-pswp-width="3307" data-pswp-height="4961" class="block overflow-hidden rounded shadow bg-gray-200">
+            <div class="aspect-[3/5]">
+              <img class="gallery-img" src="assets/sexy_1.jpg">
+            </div>
+          </a>
+
+          <a href="assets/autumn_1.jpg" data-pswp-width="4592" data-pswp-height="7652" class="block overflow-hidden rounded shadow bg-gray-200">
+            <div class="aspect-[3/5]">
+              <img class="gallery-img" src="assets/autumn_1.jpg">
+            </div>
+          </a>
+
+          <a href="assets/autumn_2.jpg" data-pswp-width="4170" data-pswp-height="6950" class="block overflow-hidden rounded shadow bg-gray-200">
+            <div class="aspect-[3/5]">
+              <img class="gallery-img" src="assets/autumn_2.jpg">
+            </div>
+          </a>
+
+          <a href="assets/sentimental_1.jpg" data-pswp-width="2004" data-pswp-height="3342" class="block overflow-hidden rounded shadow bg-gray-200">
+            <div class="aspect-[3/5]">
+              <img class="gallery-img" src="assets/sentimental_1.jpg">
+            </div>
+          </a>
+          <!-- <a href="assets/sentimental_2.jpg" data-pswp-width="5434" data-pswp-height="3058" class="block overflow-hidden rounded shadow bg-gray-200 sm:col-span-2 md:col-span-2">
+            <div class="aspect-[16/9]">
+              <img class="gallery-img" src="assets/sentimental_2.jpg">
+            </div>
+          </a> -->
+        </div>
+      </section>
+    </main>
+
+    <section id="about" class="max-w-6xl mx-auto px-6 pb-12">
+      <div class="rounded-2xl border border-zinc-800 bg-zinc-900/70 p-8 shadow-lg shadow-black/20">
+        <h2 class="text-2xl font-semibold mb-3">About</h2>
+        <p class="text-zinc-300 leading-7">
+          My name is Noelle Xie. Honestly, I am having trouble finding words to describe myself - I have never been a good salesperson. <br>
+          I am a trans woman with an eclectic mix of interests, namely - fashion, tech, photography, climbing, dancing, gaming, etc. <br>
+          When it comes to my portraits, I put a lot of emphasis on mood, texture and presence.
+        </p>
+      </div>
+    </section>
+
+    <footer class="max-w-6xl mx-auto p-6 text-sm text-zinc-500">
+      © Nxie
+    </footer>
+
+    <!-- Photoswipe lightbox (module) -->
+    <script type="module" src="js/gallery.js"></script>
+  </body>
+</html>
